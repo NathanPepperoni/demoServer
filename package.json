@@ -1,0 +1,24 @@
+{
+  "name": "demoserver",
+  "version": "1.0.0",
+  "description": "A super cool server, for EVERYONE to enjoy!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reniat/demoServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reniat/demoServer/issues"
+  },
+  "homepage": "https://github.com/reniat/demoServer#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "express": "^4.16.4"
+  }
+}
