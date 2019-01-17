@@ -1,7 +1,6 @@
 
 const express = require('express');
 const path = require('path');
-const exec = require('child_process');
 const app = express();
 const port = 8080;
 const AWS = require('aws-sdk');
@@ -15,7 +14,7 @@ const router = express.Router();
 app.use('/', router);
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname + '/index.html'));
+  res.sendFile(path.join(__dirname + '/Index.html'));
 });
 
 app.route('/kill').get((req, res) => {
